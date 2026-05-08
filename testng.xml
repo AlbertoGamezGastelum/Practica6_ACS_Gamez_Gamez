@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Practica6 - OrangeHRM Suite" verbose="1">
+
+    <test name="Casos Positivos">
+        <classes>
+            <class name="Tests.PositiveTests"/>
+        </classes>
+    </test>
+
+    <test name="Casos Negativos">
+        <classes>
+            <class name="Tests.NegativeTests"/>
+        </classes>
+    </test>
+
+    <test name="Validacion de Interfaz">
+        <classes>
+            <class name="Tests.UIValidationTests"/>
+        </classes>
+    </test>
+
+    <test name="Navegacion">
+        <classes>
+            <class name="Tests.NavigationTests"/>
+        </classes>
+    </test>
+
+</suite>
